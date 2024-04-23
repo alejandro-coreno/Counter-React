@@ -55,6 +55,7 @@ const App = ({ value }) => {
           esconder &&
           <>
             <button className="btn increment" onClick={() => setCounter(counter + 1)}>Incrementar</button>
+            <button className="btn reset" onClick={() => setCounter(value)}>Restablecer</button>
             <button className="btn decrement" onClick={() => setCounter(counter - 1)}>Decrementar</button>
           </>
         }

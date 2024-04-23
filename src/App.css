@@ -1,6 +1,6 @@
 .conteiner{
   margin: 140px auto;
-  width: 35%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,6 +55,10 @@
 
 .increment{
   background: #149d0d;
+}
+
+.reset {
+  background: #319EA7;
 }
 
 .increment:hover{
